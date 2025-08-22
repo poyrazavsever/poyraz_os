@@ -18,10 +18,10 @@ export default function RootLayout({
       <body className="h-screen w-screen overflow-hidden">
         <div className="absolute top-0 left-0 w-screen h-screen">
           <LiquidChrome
-            baseColor={[0.2, 0.2, 0.4]}
+            baseColor={[0.2, 0.02, 0.02]}
             speed={0.1}
             amplitude={0.5}
-            interactive={true}
+            interactive={false}
           />
         </div>
         {children}
