@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import LiquidChrome from "../components/background"
+import DockBar from "../components/DockBar";
 
 export const metadata: Metadata = {
   title: "Welcome to Poyraz Os Distribution",
   description: "A modern operating system distribution.",
 };
+
 
 export default function RootLayout({
   children,
@@ -25,6 +27,8 @@ export default function RootLayout({
           />
         </div>
         {children}
+
+        <DockBar />
       </body>
     </html>
   );
