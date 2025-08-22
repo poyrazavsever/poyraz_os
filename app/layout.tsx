@@ -22,7 +22,7 @@ export default function RootLayout({
           <LiquidChrome
             baseColor={[0.2, 0.02, 0.02]}
             speed={0.1}
-            amplitude={0.5}
+            amplitude={0.4}
             interactive={false}
           />
         </div>
